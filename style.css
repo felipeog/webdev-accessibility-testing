@@ -68,20 +68,20 @@ body .header .nav {
   margin-top: -1rem;
 }
 
-body .header .nav .ul {
+body .header .nav ul {
   list-style-type: none;
   display: flex;
   align-items: center;
   column-gap: 18px;
 }
 
-body .header .nav .ul li a {
+body .header .nav ul li a {
   text-decoration: none;
   color: var(--dark-gray);
   font-weight: 700;
 }
 
-body .header .nav .ul li:last-of-type a {
+body .header .nav ul li:last-of-type a {
   background: var(--teal);
   color: var(--white);
   padding: 15px;
@@ -211,14 +211,14 @@ body .main .social {
   row-gap: 15px;
 }
 
-body .main .social .ul {
+body .main .social ul {
   list-style-type: none;
   display: flex;
   column-gap: 12px;
   justify-content: left;
 }
 
-body .main .social .ul li a svg {
+body .main .social ul li a svg {
   width: 30px;
   fill: var(--cyan);
 }
