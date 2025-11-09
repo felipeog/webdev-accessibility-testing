@@ -8,9 +8,9 @@
   --medium-gray: #666666;
   --light-gray: #cccccc;
   --white: #ffffff;
+  --dark-blue: #372865;
+  --light-blue: #91929a;
   --teal: #008576;
-  --marine: #372865;
-  --cyan: #dedfe7;
 }
 
 * {
@@ -222,7 +222,7 @@ body .main .social ul {
 
 body .main .social ul li a svg {
   width: 30px;
-  fill: var(--cyan);
+  fill: var(--light-blue);
 }
 
 body .footer {
@@ -238,7 +238,7 @@ body .footer p {
 }
 
 body .footer p a {
-  color: var(--marine);
+  color: var(--dark-blue);
 }
 
 body #mobile-nav {
