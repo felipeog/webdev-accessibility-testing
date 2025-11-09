@@ -251,7 +251,7 @@ body #mobile-nav .nav {
   padding: 20px 0px;
 }
 
-body #mobile-nav .nav .ul {
+body #mobile-nav .nav ul {
   list-style-type: none;
   display: flex;
   flex-direction: column;
@@ -260,12 +260,12 @@ body #mobile-nav .nav .ul {
   row-gap: 5px;
 }
 
-body #mobile-nav .nav .ul li {
+body #mobile-nav .nav ul li {
   width: 100%;
   padding: 10px;
 }
 
-body #mobile-nav .nav .ul li a {
+body #mobile-nav .nav ul li a {
   display: block;
   text-decoration: none;
   color: var(--white);
@@ -273,7 +273,7 @@ body #mobile-nav .nav .ul li a {
   text-align: center;
 }
 
-body #mobile-nav .nav .ul li a:hover {
+body #mobile-nav .nav ul li a:hover {
   color: var(--black);
 }
 
