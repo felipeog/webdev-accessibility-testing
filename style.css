@@ -4,7 +4,8 @@
 
 :root {
   --black: #000000;
-  --dark-gray: #666666;
+  --dark-gray: #292929;
+  --medium-gray: #666666;
   --light-gray: #cccccc;
   --white: #ffffff;
   --teal: #008576;
@@ -36,7 +37,7 @@ body :focus {
 }
 
 body :placeholder {
-  color: var(--dark-gray);
+  color: var(--medium-gray);
 }
 
 body .header {
@@ -77,7 +78,7 @@ body .header .nav ul {
 
 body .header .nav ul li a {
   text-decoration: none;
-  color: var(--dark-gray);
+  color: var(--medium-gray);
   font-weight: 700;
 }
 
@@ -114,6 +115,16 @@ body .main .home .section-left {
   display: flex;
   flex-direction: column;
   row-gap: 25px;
+  color: var(--dark-gray);
+}
+
+body .main .home .section-left p {
+  color: var(--dark-gray);
+}
+
+body .main .home .section-left a {
+  color: var(--teal);
+  text-decoration: none;
 }
 
 body .main .home .section-left p.bullet {
@@ -123,15 +134,10 @@ body .main .home .section-left p.bullet {
   font-size: 0.9rem;
 }
 
-body .main .home .section-left p.bullet a {
-  color: var(--dark-gray);
-  text-decoration: none;
-}
-
 body .main .home .section-left p.bullet:before {
   content: "■ ";
   position: relative;
-  color: var(--dark-gray);
+  color: var(--medium-gray);
   list-style-type: circle;
   margin-left: -0.8rem;
 }
@@ -147,19 +153,15 @@ body .main .home .section-left .label-header p {
   color: var(--white);
 }
 
-body .main .home .section-left p {
-  color: var(--dark-gray);
-}
-
 body .main .home .section-left .h1 {
   font-size: 40px;
-  color: var(--dark-gray);
+  color: var(--medium-gray);
   font-weight: 900;
 }
 
 body .main .home .section-left .h2 {
   font-size: 20px;
-  color: var(--dark-gray);
+  color: var(--medium-gray);
   font-weight: 900;
 }
 
