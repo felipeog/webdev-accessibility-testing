@@ -14,17 +14,18 @@
 </head>
 
 <body>
-  <div class="header">
+  <header class="header">
     <div class="header-logo">
       <a href="index.html">
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Ph%C3%B2ng_tr%C3%A1nh_%C4%91%E1%BA%A1i_d%E1%BB%8Bch.svg/100px-Ph%C3%B2ng_tr%C3%A1nh_%C4%91%E1%BA%A1i_d%E1%BB%8Bch.svg.png"
-          alt="Go to the home page."
-          />
+          alt="Go to the home page." />
       </a>
-      <div class="club-name">Medical Mysteries Club</div>
+
+      <h1 class="club-name">Medical Mysteries Club</h1>
     </div>
-    <div class="nav">
+
+    <nav class="nav" aria-label="Main (desktop)">
       <ul>
         <li><a href="#">About</a></li>
         <li><a href="#">Community</a></li>
@@ -32,17 +33,16 @@
         <li><a href="#">Q&amp;A</a></li>
         <li><a href="#">Subscribe</a></li>
       </ul>
-    </div>
+    </nav>
+
     <div id="mobile-nav-btn" class="mobile-nav-btn">
-      <img
-        src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg"
-        alt="Mobile navigation button."
-        />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Hamburger_icon.svg"
+        alt="Mobile navigation button." />
     </div>
-  </div>
+  </header>
 
   <div id="mobile-nav">
-    <div class="nav">
+    <nav class="nav" aria-label="Main (mobile)">
       <ul>
         <li><a href="#">About</a></li>
         <li><a href="#">Community</a></li>
@@ -50,29 +50,35 @@
         <li><a href="#">Q&amp;A</a></li>
         <li><a href="#">Subscribe</a></li>
       </ul>
-    </div>
+    </nav>
   </div>
 
-  <div class="main">
+  <main class="main">
     <div class="home">
       <div class="section-left">
-        <p class="h1">Join the Club</p>
+        <h2 class="h1">Join the Club</h2>
+
         <p>
           Subscribe to our e-newsletter and have medical mysteries delivered
           to your inbox! You will learn about all types of topics,
           including...
         </p>
-        <p class="h2">Rare Medical Conditions</p>
-        <p><b>Mermaid syndrome</b></p>
+
+        <h3 class="h2">Rare Medical Conditions</h3>
+
+        <h4>Mermaid syndrome</h4>
+
         <p class="bullet">
-          <a href="https://rarediseases.org/rare-diseases/sirenomelia">Sirenomelia </a>, also known as mermaid syndrome,
+          <a href="https://rarediseases.org/rare-diseases/sirenomelia">Sirenomelia</a>, also known as mermaid syndrome,
           is an extremely rare congenital
           developmental disorder characterized by anomalies of the lower spine
           and the lower limbs. Affected infants are born with partial or
           complete fusion of the legs. Most newborns don’t survive for long
           with this anomaly, but some children defy the odds.
         </p>
-        <p><b>Maple syrup urine disease</b></p>
+
+        <h4>Maple syrup urine disease</h4>
+
         <p class="bullet">
           <a href="https://rarediseases.org/rare-diseases/maple-syrup-urine-disease">Maple syrup urine disease
             (MSUD)</a>
@@ -82,7 +88,9 @@
           reminiscent of maple syrup, which can be detected in the urine and
           earwax within a day or two of birth.
         </p>
-        <p><b>Klinefelter syndrome</b></p>
+
+        <h4>Klinefelter syndrome</h4>
+
         <p class="bullet">
           <a href="https://rarediseases.org/rare-diseases/47-xxy-klinefelter-syndrome">Klinefelter syndrome</a>
           is a chromosomal variation in males in which one extra X chromosome
@@ -91,44 +99,56 @@
           is believed that the founding father of the United States, George
           Washington, was unable to have children due to Klinefelter syndrome.
         </p>
+
         <form>
           <div class="form-group">
             <input type="email" placeholder="Enter your e-mail address" required="" />
+
             <button type="submit">Subscribe</button>
           </div>
         </form>
+
         <div class="social">
           <ul>
             <li>
-              <a href="#"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                <title>Connect on our Twitter page.</title>  
-                <path
+              <a href="#">
+                <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <title>Connect on our Twitter page.</title>
+
+                  <path
                     d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z">
                   </path>
-                </svg></a>
+                </svg>
+              </a>
             </li>
 
             <li>
-              <a href="#"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                <title>Connect on our Twitch page.</title>  
-                <path
+              <a href="#">
+                <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <title>Connect on our Twitch page.</title>
+
+                  <path
                     d="M40.1 32L10 108.9v314.3h107V480h60.2l56.8-56.8h87l117-117V32H40.1zm357.8 254.1L331 353H224l-56.8 56.8V353H76.9V72.1h321v214zM331 149v116.9h-40.1V149H331zm-107 0v116.9h-40.1V149H224z">
                   </path>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#"><svg role="img" xmlns="http://www.w3.org/2000/svg" data-prefix="fab" data-icon="instagram-square"
+              <a href="#">
+                <svg role="img" xmlns="http://www.w3.org/2000/svg" data-prefix="fab" data-icon="instagram-square"
                   class="svg-inline--fa fa-instagram-square fa-w-14" viewBox="0 0 448 512">
                   <title>Connect on our Instagram page.</title>
+
                   <path
                     d="M224,202.66A53.34,53.34,0,1,0,277.36,256,53.38,53.38,0,0,0,224,202.66Zm124.71-41a54,54,0,0,0-30.41-30.41c-21-8.29-71-6.43-94.3-6.43s-73.25-1.93-94.31,6.43a54,54,0,0,0-30.41,30.41c-8.28,21-6.43,71.05-6.43,94.33S91,329.26,99.32,350.33a54,54,0,0,0,30.41,30.41c21,8.29,71,6.43,94.31,6.43s73.24,1.93,94.3-6.43a54,54,0,0,0,30.41-30.41c8.35-21,6.43-71.05,6.43-94.33S357.1,182.74,348.75,161.67ZM224,338a82,82,0,1,1,82-82A81.9,81.9,0,0,1,224,338Zm85.38-148.3a19.14,19.14,0,1,1,19.13-19.14A19.1,19.1,0,0,1,309.42,189.74ZM400,32H48A48,48,0,0,0,0,80V432a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V80A48,48,0,0,0,400,32ZM382.88,322c-1.29,25.63-7.14,48.34-25.85,67s-41.4,24.63-67,25.85c-26.41,1.49-105.59,1.49-132,0-25.63-1.29-48.26-7.15-67-25.85s-24.63-41.42-25.85-67c-1.49-26.42-1.49-105.61,0-132,1.29-25.63,7.07-48.34,25.85-67s41.47-24.56,67-25.78c26.41-1.49,105.59-1.49,132,0,25.63,1.29,48.33,7.15,67,25.85s24.63,41.42,25.85,67.05C384.37,216.44,384.37,295.56,382.88,322Z">
                   </path>
-                </svg></a>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
       </div>
+
       <div class="section-right">
         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1"
           x="0px" y="0px" viewBox="0 0 1920 1080" style="enable-background: new 0 0 1920 1080" xml:space="preserve">
@@ -409,7 +429,8 @@
           <path class="st20" d="M750.9,387.1l-2.7-38.5c0,0,4,2.4,8.1,6.3c4.1,3.9,5.8,6.7,5.8,6.7l6.4,52.8L750.9,387.1z">
           </path>
           <path class="st20"
-            d="M700,348.6l51.8,35.7l16.6,30.1l-86.1-54.7c0,0,3.6-2.8,8.3-6.3C695.3,349.9,700,348.6,700,348.6z"></path>
+            d="M700,348.6l51.8,35.7l16.6,30.1l-86.1-54.7c0,0,3.6-2.8,8.3-6.3C695.3,349.9,700,348.6,700,348.6z">
+          </path>
           <path class="st21" d="M707,499.9h57v42.5c0,11.9-9.6,21.5-21.5,21.5h-14c-11.9,0-21.5-9.6-21.5-21.5V499.9z">
           </path>
           <path class="st21"
@@ -453,13 +474,14 @@
         </svg>
       </div>
     </div>
-  </div>
-  <div class="footer">
+  </main>
+
+  <footer class="footer">
     <p>
       This page was intentionally made inaccessible! For demo purposes.
       <a href="https://web.dev/learn/accessibility/test-automated/">Learn more</a>.
     </p>
-  </div>
+  </footer>
 
   <script src="main.js"></script>
 </body>
