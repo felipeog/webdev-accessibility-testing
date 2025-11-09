@@ -32,7 +32,7 @@ body {
 }
 
 body :focus {
-  outline: none;
+  outline: 3px dotted var(--teal);
 }
 
 body :placeholder {
