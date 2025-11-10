@@ -170,6 +170,7 @@ body .main .home .section-left .h2 {
 body .main .home .section-left form .form-group {
   display: flex;
   column-gap: 10px;
+  position: relative;
 }
 
 body .main .home .section-left form .form-group input {
@@ -178,6 +179,27 @@ body .main .home .section-left form .form-group input {
   width: 230px;
   border: 1px solid var(--light-gray);
   border-radius: 4px;
+}
+
+body .main .home .section-left form .form-group input::placeholder {
+  color: transparent;
+}
+
+body .main .home .section-left form .form-group label {
+  color: var(--medium-gray);
+  font-size: 13.3px;
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  transition: all 0.35s ease-out 0s;
+}
+
+body .main .home .section-left form .form-group input:focus + label,
+body .main .home .section-left form .form-group input.has-value + label {
+  top: -15px;
+  color: var(--teal);
 }
 
 body .main .home .section-left form .form-group button {
