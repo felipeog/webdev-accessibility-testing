@@ -134,11 +134,14 @@ body .main .home .section-left p.bullet {
 }
 
 body .main .home .section-left p.bullet:before {
-  content: "■ ";
-  position: relative;
-  color: var(--medium-gray);
+  content: "";
   list-style-type: circle;
   margin-left: -0.8rem;
+}
+
+body .main .home .section-left p.bullet span {
+  color: var(--medium-gray);
+  font-size: 0.9rem;
 }
 
 body .main .home .section-left .label-header {
