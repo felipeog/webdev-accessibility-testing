@@ -223,7 +223,7 @@ body .main .home .section-right {
   background-position: center;
 }
 
-body .main .home .section-right svg {
+body .main .home .section-right .illustration {
   width: 50%;
   position: absolute;
   top: 200px;
